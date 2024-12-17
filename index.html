@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon 2024</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav {
+            background-color: #dcdfe6;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #dcdfe6;
+            background-color: #333;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .head {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .card1,
+        .cards div {
+            background-color: #dcdfe6;
+            padding: 15px;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .cards img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        footer {
+            background-color: #dcdfe6;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            color: #555;
+        }
+
+        .announcement {
+            text-align: center;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .a2{
+            text-align: center;
+            font-size: 18px;
+            margin: 20px auto;
+        }
+
+        .fin {
+            height: 50px;
+            background-color: #dcdfe6;
+            text-align: center;
+            font-weight: bold;
+            font-size: 24px;
+            padding: 15px 0 0 0;
+            margin: 15px 0 15px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1>Hackathon 2024</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#footer">About</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2 class="head" id="home">Join Hackathon 2024 😁</h2>
+        <div class="card1">
+            <p>The event will be held at Kacyiru, Fablab.</p>
+            <p>Main projects:</p>
+            <ul>
+                <li>Applications to solve healthcare problems</li>
+                <li>Applications to enhance the education system</li>
+                <li>Applications for improving community services</li>
+            </ul>
+        </div>
+
+        <div class="cards">
+            <div>
+                <p><strong>Healthcare</strong></p>
+                <p>Develop solutions to address healthcare challenges in Rwanda.</p>
+                <img src="./health.avif" alt="Healthcare">
+            </div>
+            <div>
+                <p><strong>Education</strong></p>
+                <p>Build innovative applications to improve the education system.</p>
+                <img src="./education.avif" alt="Education">
+            </div>
+            <div>
+                <p><strong>Community Service</strong></p>
+                <p>Design tools to enhance community services in Rwanda.</p>
+                <img src="./community.avif" alt="Community Service">
+            </div>
+        </div>
+
+        <section id="schedule">
+            <h3 class="announcement">Event Schedule</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Activity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>8:45 - 9:15 AM</td>
+                        <td>Doors Open</td>
+                    </tr>
+                    <tr>
+                        <td>9:15 - 9:45 AM</td>
+                        <td>Opening Remarks</td>
+                    </tr>
+                    <tr>
+                        <td>9:45 - 11:00 AM</td>
+                        <td>Workshop: Build a Website</td>
+                    </tr>
+                    <tr>
+                        <td>11:00 AM - 1:00 PM</td>
+                        <td>Coding Session 1</td>
+                    </tr>
+                    <tr>
+                        <td>1:00 - 2:00 PM</td>
+                        <td>Lunch Break</td>
+                    </tr>
+                    <tr>
+                        <td>2:00 - 2:30 PM</td>
+                        <td>Special Guest Speech</td>
+                    </tr>
+                    <tr>
+                        <td>2:30 - 4:30 PM</td>
+                        <td>Coding Session 2</td>
+                    </tr>
+                    <tr>
+                        <td>4:30 - 6:00 PM</td>
+                        <td>Project Presentations & Q&A</td>
+                    </tr>
+                    <tr>
+                        <td>6:00 - 6:30 PM</td>
+                        <td>Judging, Awards & Closing Remarks</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <div class="announcement">
+            <p>🎉 Special Announcement: Top 3 winners will receive amazing prizes! Join to find out! 🎁</p>
+            <p class="a2">This event is not just about coding, we’ve got some awesome surprises in store including: 
+                exciting giveaways and a chance to connect with amazing people. 🎉</p>
+        </div>
+
+    </main>
+    <div class="fin">Happy Coding and Don't Miss Out! 😁</div>
+
+    <footer id="footer">
+        <p>This event aims to empower rising developers and foster a strong developer community in Rwanda.</p>
+        <p>&copy; 2024 Hackathon. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
